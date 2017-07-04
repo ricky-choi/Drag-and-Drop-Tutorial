@@ -10,5 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var imageViews: [PasteImageView]!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        setupDrag()
+    }
+    
+    func setupDrag() {
+        for imageView in imageViews {
+            imageView.addInteraction(UIDragInteraction(delegate: self))
+        }
+    }
 }
 
+extension ViewController: UIDragInteractionDelegate {
+    func dragInteraction(_ interaction: UIDragInteraction, itemsForBeginning session: UIDragSession) -> [UIDragItem] {
+        guard let dragImageView = interaction.view as? UIImageView, let dragImage = dragImageView.image else {
+            return []
+        }
+        
+        let itemProvider = NSItemProvider(object: dragImage)
+        let dragItem = UIDragItem(itemProvider: itemProvider)
+        
+        return [dragItem]
+    }
+}
