@@ -20,7 +20,10 @@ class ViewController: UIViewController {
     
     func setupDrag() {
         for imageView in imageViews {
-            imageView.addInteraction(UIDragInteraction(delegate: self))
+            let dragInteraction = UIDragInteraction(delegate: self)
+            dragInteraction.isEnabled = true // default if false, in iPhone
+            
+            imageView.addInteraction(dragInteraction)
         }
     }
 }
