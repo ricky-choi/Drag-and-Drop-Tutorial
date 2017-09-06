@@ -13,8 +13,6 @@
 		9C3E73F01F0B14370048AE59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E73EF1F0B14370048AE59 /* Assets.xcassets */; };
 		9C3E73F31F0B14370048AE59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E73F11F0B14370048AE59 /* LaunchScreen.storyboard */; };
 		9C3E73FB1F0B14630048AE59 /* PasteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E73FA1F0B14630048AE59 /* PasteImageView.swift */; };
-		9C3E73FE1F0B16070048AE59 /* lucho-52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E73FC1F0B16070048AE59 /* lucho-52.jpg */; };
-		9C3E73FF1F0B16070048AE59 /* lucho-32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E73FD1F0B16070048AE59 /* lucho-32.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		9C3E73F21F0B14370048AE59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C3E73F41F0B14370048AE59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C3E73FA1F0B14630048AE59 /* PasteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteImageView.swift; sourceTree = "<group>"; };
-		9C3E73FC1F0B16070048AE59 /* lucho-52.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lucho-52.jpg"; path = "../../../Google 드라이브/Sample photos/lucho-52.jpg"; sourceTree = "<group>"; };
-		9C3E73FD1F0B16070048AE59 /* lucho-32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lucho-32.jpg"; path = "../../../Google 드라이브/Sample photos/lucho-32.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +61,6 @@
 				9C3E73FA1F0B14630048AE59 /* PasteImageView.swift */,
 				9C3E73EC1F0B14370048AE59 /* Main.storyboard */,
 				9C3E73EF1F0B14370048AE59 /* Assets.xcassets */,
-				9C3E73FD1F0B16070048AE59 /* lucho-32.jpg */,
-				9C3E73FC1F0B16070048AE59 /* lucho-52.jpg */,
 				9C3E73F11F0B14370048AE59 /* LaunchScreen.storyboard */,
 				9C3E73F41F0B14370048AE59 /* Info.plist */,
 			);
@@ -131,10 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C3E73FF1F0B16070048AE59 /* lucho-32.jpg in Resources */,
 				9C3E73F31F0B14370048AE59 /* LaunchScreen.storyboard in Resources */,
 				9C3E73F01F0B14370048AE59 /* Assets.xcassets in Resources */,
-				9C3E73FE1F0B16070048AE59 /* lucho-52.jpg in Resources */,
 				9C3E73EE1F0B14370048AE59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +314,7 @@
 				9C3E73F91F0B14370048AE59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
